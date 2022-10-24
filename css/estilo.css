@@ -1,0 +1,39 @@
+
+body{
+    background: rgb(215,176,215);
+    background: linear-gradient(90deg, rgba(215,176,215,1) 0%, rgba(203,170,227,1) 35%, rgba(201,164,221,1) 100%);
+}
+.borda{
+    border: 2px solid rgb(169, 107, 227);
+    border-radius: 10px;
+    margin:  0 auto;
+    text-align: center;
+    height: 400px;
+    padding: 1px;
+    width: 400px;
+    box-shadow: 0  0  5px  rgb(220, 200, 238);
+}
+.borda:hover{
+    /*adicionar efeitos de sombra em volta ao elemento.*/
+    box-shadow: 0  0  20px  rgb(101, 81, 189);
+    color:rgb(5, 5, 5);
+    /*a cor que ira ficar quando o mouse passar em cima*/
+    background: linear-gradient(90deg, rgba(238,218,242,1) 0%, rgba(219,204,230,1) 35%, rgba(242,221,255,1) 100%);
+}
+p{
+    border: 2px solid rgb(92, 40, 182);
+    border-radius: 60px;
+    margin: auto;
+    text-align: center;  
+}
+p:hover{
+    box-shadow: 0  0  20px  rgb(101, 81, 189); 
+}
+.centrotela {
+    position: fixed;
+    top: 50%;
+
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    

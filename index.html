@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulario css</title>
+        <meta charset="utf-8">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="centrotela">
+        <div class="borda">
+        <p>Conhecendo melhor você🤍</p>
+            <br><br>
+        <form action="https://www.google.com/" method="post">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="usuario_nome" />
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="usuario_email" />
+            </div>
+            <br><br>
+                Data de nascimento: <input type="date" name="nascimento">
+                <br><br>
+                Selecione sua cor preferida: <input type="color" name="favcor" value="#0000">
+                <br><br>
+                Quanto você está feliz agora<br>
+                nem um pouco 
+                <input type="range" name="satisfacao" min="0" max="10">
+                extremamente feliz
+                <br><br>
+                Quantos dias por semana você desscansa: <input type="number" name="quantidade" min="0" max="7">
+            </form>
+       
+
+        <br><br>
+
+        <form>
+            <input type="button" value="Concluir" onclick="msg()">
+          </form>
+          
+<script>
+    function msg() {
+      alert("Agradecemos a colaboração =)");
+    }
+    </script>
+        </div>
+        </div>
+   
+    </body>
+</html>
